@@ -155,11 +155,3 @@ drumKit.tempoSlider.addEventListener('input', function (e) {
 drumKit.tempoSlider.addEventListener('input', function (e) {
     drumKit.updateTempo(e);
 });
-
-function ask(question) {
-    setTimeout(function waitASec() {
-        console.log(question);
-    }, 100);
-}
-
-ask("What is closure?")
